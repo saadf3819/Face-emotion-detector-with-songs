@@ -19,7 +19,7 @@ Face Emotion Detector is a real‑time computer vision system that uses your web
 ## 🧠 Model Details
 
 - **Architecture:** Custom CNN (2 convolutional layers + dense layers)
-- **Training dataset:** FER2013 (35,887 grayscale 48×48 face images)
+- **Training dataset:** FER2013 (42,953 grayscale 48×48 face images)
 - **Emotion classes:** Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise
 - **Input:** Grayscale 48×48 pixel face ROI
 - **File size:** 48.5 MB (`facialemotionmodel.h5`)
