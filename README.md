@@ -36,6 +36,67 @@ Face Emotion Detector is a real‑time computer vision system that uses your web
 
 ### Step 1: Clone the repository
 
-```bash
+```bash 
 git clone https://github.com/saadf3819/Face-emotion-detector-with-songs.git
 cd Face-emotion-detector-with-songs
+```
+
+### Step 2: Create Virtual Environment
+```bash
+python -m venv venv
+#### Activate Environment
+
+**macOS/Linux**
+```bash
+source venv/bin/activate
+```
+
+**Windows**
+```bash
+venv\Scripts\activate
+```
+
+### Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+#### If `requirements.txt` is missing:
+
+```bash
+pip install opencv-contrib-python tensorflow keras numpy pygame
+```
+
+### Step 4: Run Project
+
+```bash
+python main.py
+```
+
+Press **`q`** to quit.
+
+---
+
+## 🎮 How to Use
+
+1. Run `main.py` → Webcam opens  
+2. Face gets detected (blue rectangle)  
+3. Show emotion (smile, sad, etc.)  
+4. Music plays automatically 🎶  
+5. Press `q` to exit  
+
+---
+
+## 🧪 Performance Tips
+
+- 💡 Use good front lighting  
+- 😄 Exaggerate facial expressions  
+- 🚫 Avoid covering face (hair/glasses)  
+- 🔄 Frame smoothing uses last 5 predictions (editable in `main.py`)  
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
