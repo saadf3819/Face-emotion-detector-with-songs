@@ -45,6 +45,7 @@ cd Face-emotion-detector-with-songs
 ```bash
 python -m venv venv
 #### Activate Environment
+```
 
 **macOS/Linux**
 ```bash
