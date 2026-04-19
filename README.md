@@ -9,7 +9,7 @@ Face Emotion Detector is a real‑time computer vision system that uses your web
 ## ✨ Features
 
 - **Real‑time Face Detection** – Uses Haar Cascade to locate faces in the webcam feed.
-- **Emotion Recognition** – A CNN model (trained on FER2013) classifies 7 emotions with ~70% accuracy.
+- **Emotion Recognition** – A CNN model (trained on FER2013) classifies 7 emotions with.
 - **Mood‑Based Music Playback** – Plays a local audio file that matches the detected emotion (e.g., `happy.mp3` for happy).
 - **Live Video Overlay** – Draws a bounding box around your face and displays the predicted emotion.
 - **Frame Smoothing** – Averages predictions over multiple frames to reduce flickering and neutral bias.
